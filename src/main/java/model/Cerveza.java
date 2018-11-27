@@ -52,6 +52,14 @@ public class Cerveza {
         }
     }
 
+
+    public double calcularIBUS(int azucar){
+        return azucar * (this.constLupulo / 2);
+    }
+
+
+
+
     @Override
     public String toString() {
         return "Cerveza{" +
@@ -61,23 +69,3 @@ public class Cerveza {
                 '}';
     }
 }
-
-
-//    method constLupulo(origen){
-//        if(origen == "Importado"){
-//            constLupulo = 2.4
-//        }
-//        else if (origen == "Local"){
-//            constLupulo = 1.6
-//        }
-//    }
-//    method constLupulo(){
-//        return constLupulo
-//    }
-//
-//    method calcularIBUS(azucar){
-//        return azucar * (self.constLupulo() / 2)
-//    }
-//}
-//
-//}
