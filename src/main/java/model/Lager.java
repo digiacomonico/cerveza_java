@@ -5,12 +5,12 @@ import java.util.List;
 
 public class Lager extends Clasica {
 
-    protected List<String> ingredientes = new ArrayList<String>();
+    private List<String> ingredientes = new ArrayList<String>();
 
     @Override
-    public double costo() {
+    public double getCosto() {
         // TODO -> Agregar descuento
-        return this.valorLupulo + this.valorLevadura + (this.cantidadIngredientes() * 50) ;
+        return this.getValorLupulo() + this.getValorLevadura() + (this.getCantidadIngredientes() * 50) ;
     }
 
 
@@ -18,7 +18,7 @@ public class Lager extends Clasica {
         ingredientes.add(ingrediente);
     }
 
-    public int cantidadIngredientes(){
+    public int getCantidadIngredientes(){
         return ingredientes.size();
     }
 

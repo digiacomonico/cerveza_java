@@ -3,9 +3,9 @@ package model;
 public class Cerveza {
 
 
-    protected int valorLupulo;
-    protected double constLupulo;
-    protected String tipoLupulo;
+    private int valorLupulo;
+    private double constLupulo;
+    private String tipoLupulo;
 
     public Cerveza() {
         System.out.println("Cerveza (Padre) instanciada");

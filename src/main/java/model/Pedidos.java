@@ -2,14 +2,15 @@ package model;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Pedidos {
 
-    protected List<Lotes> lotes = new ArrayList<Lotes>();
-    //protected int valorDescuento;
-    protected int distancia;
+    private List<Lote> lotes = new ArrayList<Lote>();
+    //private int valorDescuento;
+    private int distancia;
 
-    public void agregarLote(Lotes lote){
+    public void agregarLote(Lote lote){
         lotes.add(lote);
     }
 
@@ -25,7 +26,40 @@ public class Pedidos {
         return this.distancia;
     }
 
+    public int getCosto(){
+        return lotes
+                .stream()
+                .mapToInt(l -> l.getCosto())
+                .sum();
+    }
 
+    public void descuento(){
+         List<Lote> loteLager = lotes.stream().filter(l -> l.getTipo().equals("Lager")).collect(Collectors.toList());
+         List<Lote> lotePorter = lotes.stream().filter(l -> l.getTipo().equals("Porter")).collect(Collectors.toList());
+        if(loteLager.size() > 0){
+            Lote primerLote = loteLager.get(0);
+            primerLote.getCervezas().get(0).
+        }
+    }
+    //int cantidadIng = lotes.stream().filter(l -> l.tipoLote == "Lager").
+
+//    method descuento(){
+//        if(lotes.filter({l => l.tipoLote() == "Lager"}).size() > 0){
+//            var ingredientes = lotes.filter({l => l.tipoLote() == "Lager"}).first().lote().first().cantidadIngredientes()
+//            if(ingredientes > 5){
+//                valorDescuento = 0.2
+//            }
+//            else if (ingredientes >= 2){
+//                valorDescuento = 0.02 * ingredientes
+//            }
+//
+//        }
+// 		else if (lotes.filter({l => l.tipoLote() == "Porter"}).size() > 0){
+//            if(self.distancia() < 10){
+//                valorDescuento = 0.1
+//            }
+//        }
+//    }
 
 
 

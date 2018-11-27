@@ -2,12 +2,12 @@ package model;
 
 public class Porter extends Clasica{
 
-    protected int costoLogistica;
-    protected int kms;
+    private int costoLogistica;
+    private int kms;
 
     @Override
-    public double costo() {
-        return (this.valorLupulo + this.valorLevadura) * (1 + this.costoLogistica);
+    public double getCosto() {
+        return (this.getValorLupulo() + this.getValorLevadura()) * (1 + this.costoLogistica);
     }
 
     public void cantidadKms(int kilometros){
