@@ -7,10 +7,22 @@ public class Lager extends Clasica {
 
     protected List<String> ingredientes = new ArrayList<String>();
 
-    
+    @Override
+    public double costo() {
+        // TODO -> Agregar descuento
+        return this.valorLupulo + this.valorLevadura + (this.cantidadIngredientes() * 50) ;
+    }
 
 
-//    var ingredientes = []
+    public void agregarIngredientes(String ingrediente){
+        ingredientes.add(ingrediente);
+    }
+
+    public int cantidadIngredientes(){
+        return ingredientes.size();
+    }
+
+    //    var ingredientes = []
 //    var valorDescuento
 //
 //
