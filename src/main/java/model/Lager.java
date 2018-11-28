@@ -3,20 +3,20 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Lager {
+public class Lager extends Clasica {
 
     private List<String> ingredientes = new ArrayList<String>();
-    private Levadura levadura;
-    private Lupulo lupulo;
 
     public Lager(Levadura levadura, Lupulo lupulo) {
+        super(levadura, lupulo);
         this.levadura = levadura;
         this.lupulo = lupulo;
     }
 
+
     public double getCosto() {
         // TODO -> Agregar descuento
-        return lupulo.getValorLupulo() + levadura.getValorLevadura() + (this.getCantidadIngredientes() * 50) ;
+        return super.getCosto()+ (this.getCantidadIngredientes() * 50) ;
     }
 
 

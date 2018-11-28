@@ -4,67 +4,70 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/* public class Pedidos {
+public class Pedido {
 
-    private List<Lote> lotes = new ArrayList<Lote>();
-    //private int valorDescuento;
-    private int distancia;
+
+    Clasica tipoLote;
+    Integer cantidad;
+    //private List<Clasica> lotes = new ArrayList<>();
     private Distribuidora distribuidora;
 
-    public Pedidos(Distribuidora distribuidora){
 
+    public Pedido(Clasica tipoLote, Integer cantidad, Distribuidora distribuidora) {
+        this.cantidad = cantidad;
+        this.tipoLote = tipoLote;
     }
 
-    public void agregarLote(Lote lote){
-        lotes.add(lote);
+    public double getCosto(){
+        return tipoLote.getCosto() * this.cantidad;
     }
 
-    public int cantidadLotes(){
-        return lotes.size();
-    }
-
-    public void setDistancia(int kms){
-        this.distancia = kms;
-    }
-
-    public int getDistancia(){
-        return this.distancia;
-    }
-
-    public int getCosto(){
-        return lotes
-                .stream()
-                .mapToInt(l -> l.getCosto())
-                .sum();
-    }
 
     public void descuento(){
-        if distribuidora.cantidadMinima < this.cantLotes
-         List<Lote> loteLager = lotes.stream().filter(l -> l.getTipo().equals("Lager")).collect(Collectors.toList());
-         List<Lote> lotePorter = lotes.stream().filter(l -> l.getTipo().equals("Porter")).collect(Collectors.toList());
-        if(!loteLager.isEmpty()){
-            Lote primerLote = loteLager.get(0);
-            return primerLote.getCervezas().get(0).descuento();
-        }
-    }
-
-    // TODO -> terminarlo
-    public void descuento(){
-
-    if distribuidora.cantidadMinima < this.cantLotes
-
-    clasica.descuento()
-    lager.descuento()
-    porter.descuento()
-
-
-
+        tipoLote.descuento();
     }
 
 
+    public Integer getCantidad(){
+        return this.cantidad;
+    }
 
+}
 
-    */
+//    public int getCosto(){
+//        return lotes
+//                .stream()
+//                .mapToInt(l -> l.getCosto())
+//                .sum();
+//    }
+//
+//    public void descuento(){
+//        if distribuidora.cantidadMinima < this.cantLotes
+//         List<Lote> loteLager = lotes.stream().filter(l -> l.getTipo().equals("Lager")).collect(Collectors.toList());
+//         List<Lote> lotePorter = lotes.stream().filter(l -> l.getTipo().equals("Porter")).collect(Collectors.toList());
+//        if(!loteLager.isEmpty()){
+//            Lote primerLote = loteLager.get(0);
+//            return primerLote.getCervezas().get(0).descuento();
+//        }
+//    }
+//
+//    // TODO -> terminarlo
+//    public void descuento(){
+//
+//    if distribuidora.cantidadMinima < this.cantLotes
+//
+//    clasica.descuento()
+//    lager.descuento()
+//    porter.descuento()
+//
+//
+//
+//    }
+//
+//
+//
+//
+//    */
 
 
 

@@ -1,25 +1,19 @@
 package model;
 
-public class Porter {
+public class Porter extends Clasica {
 
     private int costoLogistica;
     private int kms;
-    private Lupulo lupulo;
-    private Levadura levadura;
+
 
     public Porter(int kms, Lupulo lupulo, Levadura levadura) {
+        super(levadura, lupulo);
         this.kms = kms;
-        this.setKms();
-        this.lupulo = lupulo;
-        this.levadura = levadura;
+        this.costoLogistica = (2 * this.kms) / 100;
     }
 
     public double getCosto() {
-        return (lupulo.getValorLupulo() + levadura.getValorLevadura()) * (1 + this.costoLogistica);
-    }
-
-    public void setKms(){
-        this.costoLogistica = (2 * this.getKms())/100;
+        return super.getCosto() * (1 + this.costoLogistica);
     }
 
     public int getCostoLogistica(){

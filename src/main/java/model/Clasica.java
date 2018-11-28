@@ -3,13 +3,14 @@ package model;
 public class Clasica{
 
 //    private double valorLevadura;
-    private Levadura levadura;
-    private Lupulo lupulo;
+    protected Levadura levadura;
+    protected Lupulo lupulo;
 
     public Clasica(Levadura levadura, Lupulo lupulo) {
         this.levadura = levadura;
         this.lupulo = lupulo;
     }
+
 
     public double getCosto() {
         return lupulo.getValorLupulo() + levadura.getValorLevadura();
