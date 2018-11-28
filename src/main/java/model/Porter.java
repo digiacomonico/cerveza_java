@@ -1,13 +1,20 @@
 package model;
 
-public class Porter extends Clasica{
+public class Porter {
 
     private int costoLogistica;
     private int kms;
+    private Lupulo lupulo;
+    private Levadura levadura;
 
-    @Override
+    public Porter(int kms, Lupulo lupulo, Levadura levadura) {
+        this.kms = kms;
+        this.lupulo = lupulo;
+        this.levadura = levadura;
+    }
+
     public double getCosto() {
-        return (this.getValorLupulo() + this.getValorLevadura()) * (1 + this.costoLogistica);
+        return (lupulo.getValorLupulo() + levadura.getValorLevadura()) * (1 + this.costoLogistica);
     }
 
     public void cantidadKms(int kilometros){

@@ -1,25 +1,24 @@
 package model;
 
-public class Clasica extends Cerveza {
+public class Clasica{
 
-    private double valorLevadura;
+//    private double valorLevadura;
+    private Levadura levadura;
+    private Lupulo lupulo;
+
+    public Clasica(Levadura levadura, Lupulo lupulo) {
+        this.levadura = levadura;
+        this.lupulo = lupulo;
+    }
 
     public double getCosto() {
-        return this.getValorLupulo() + this.valorLevadura;
-    }
-
-    public double getValorLevadura(){
-        return this.valorLevadura;
+        return lupulo.getValorLupulo() + levadura.getValorLevadura();
     }
 
 
-    public void tipoLevadura(String tipo) {
-        if (tipo == "Alta") {
-            this.valorLevadura = 0.1 * this.getValorLupulo();
-        } else if (tipo == "Baja") {
-            this.valorLevadura = 0;
-        }
-    }
+//    public double getValorLevadura(){
+//        return levadura.getValorLevadura();
+//    }
 
 }
 

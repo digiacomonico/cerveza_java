@@ -3,11 +3,12 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
 public class Distribuidora {
 
 
     private List<Pedidos> pedidos = new ArrayList<Pedidos>();
-    private int descuentoAPartir;
+    private Integer descuentoAPartir;
 
     public int getCosto(Pedidos pedido){
         return pedido.getCosto();
@@ -17,11 +18,11 @@ public class Distribuidora {
         pedidos.add(pedido);
     }
 
-    public int cantidadPedidos(){
+    public Integer cantidadPedidos(){
         return pedidos.size();
     }
 
-    public int getDescuentoAPartir(){
+    public Integer getDescuentoAPartir(){
         return this.descuentoAPartir;
     }
 
@@ -30,10 +31,25 @@ public class Distribuidora {
     }
 
     public void darDescuento(Pedidos pedido){
-        if(pedido.cantidadLotes() >= this.descuentoAPartir){
             pedido.descuento();
-        }
     }
+
+    */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //
 //    var pedidos = #{}
@@ -77,4 +93,4 @@ public class Distribuidora {
 //            pedido.descuento()
 //        }
 //    }
-}
+

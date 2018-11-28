@@ -3,14 +3,20 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Lager extends Clasica {
+public class Lager {
 
     private List<String> ingredientes = new ArrayList<String>();
+    private Levadura levadura;
+    private Lupulo lupulo;
 
-    @Override
+    public Lager(Levadura levadura, Lupulo lupulo) {
+        this.levadura = levadura;
+        this.lupulo = lupulo;
+    }
+
     public double getCosto() {
         // TODO -> Agregar descuento
-        return this.getValorLupulo() + this.getValorLevadura() + (this.getCantidadIngredientes() * 50) ;
+        return lupulo.getValorLupulo() + levadura.getValorLevadura() + (this.getCantidadIngredientes() * 50) ;
     }
 
 
@@ -22,6 +28,11 @@ public class Lager extends Clasica {
         return ingredientes.size();
     }
 
+
+    public Integer descuento(){
+        return 0;
+
+    }
     //    var ingredientes = []
 //    var valorDescuento
 //

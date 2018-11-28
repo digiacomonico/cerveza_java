@@ -3,6 +3,7 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
 public class Lote {
 
     private List<Cerveza> cervezas = new ArrayList<Cerveza>();
@@ -37,6 +38,25 @@ public class Lote {
     public void setCosto(int costo){
         this.costo = costo;
     }
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -77,4 +97,4 @@ public class Lote {
 //    }
 
 
-}
+

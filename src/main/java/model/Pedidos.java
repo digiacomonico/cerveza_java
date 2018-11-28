@@ -4,11 +4,16 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Pedidos {
+/* public class Pedidos {
 
     private List<Lote> lotes = new ArrayList<Lote>();
     //private int valorDescuento;
     private int distancia;
+    private Distribuidora distribuidora;
+
+    public Pedidos(Distribuidora distribuidora){
+
+    }
 
     public void agregarLote(Lote lote){
         lotes.add(lote);
@@ -34,13 +39,32 @@ public class Pedidos {
     }
 
     public void descuento(){
+        if distribuidora.cantidadMinima < this.cantLotes
          List<Lote> loteLager = lotes.stream().filter(l -> l.getTipo().equals("Lager")).collect(Collectors.toList());
          List<Lote> lotePorter = lotes.stream().filter(l -> l.getTipo().equals("Porter")).collect(Collectors.toList());
-        if(loteLager.size() > 0){
+        if(!loteLager.isEmpty()){
             Lote primerLote = loteLager.get(0);
-            primerLote.getCervezas().get(0).
+            return primerLote.getCervezas().get(0).descuento();
         }
     }
+
+
+
+
+    */
+
+
+
+
+
+
+
+
+
+
+
+
+
     //int cantidadIng = lotes.stream().filter(l -> l.tipoLote == "Lager").
 
 //    method descuento(){
@@ -90,4 +114,4 @@ public class Pedidos {
 //    method distancia(kms){
 //        distancia = kms
 //    }
-}
+
