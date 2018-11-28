@@ -9,6 +9,7 @@ public class Porter {
 
     public Porter(int kms, Lupulo lupulo, Levadura levadura) {
         this.kms = kms;
+        this.setKms();
         this.lupulo = lupulo;
         this.levadura = levadura;
     }
@@ -17,9 +18,8 @@ public class Porter {
         return (lupulo.getValorLupulo() + levadura.getValorLevadura()) * (1 + this.costoLogistica);
     }
 
-    public void cantidadKms(int kilometros){
-        this.kms = kilometros;
-        this.costoLogistica = (2 * kilometros)/100;
+    public void setKms(){
+        this.costoLogistica = (2 * this.getKms())/100;
     }
 
     public int getCostoLogistica(){

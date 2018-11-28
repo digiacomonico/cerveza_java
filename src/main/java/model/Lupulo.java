@@ -8,6 +8,7 @@ public class Lupulo {
 
     public Lupulo(String tipoLupulo) {
         this.tipoLupulo = tipoLupulo;
+        this.setValorLupulo();
     }
 
     public String getTipoLupulo(){

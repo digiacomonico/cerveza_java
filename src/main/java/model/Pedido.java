@@ -48,6 +48,19 @@ import java.util.stream.Collectors;
         }
     }
 
+    // TODO -> terminarlo
+    public void descuento(){
+
+    if distribuidora.cantidadMinima < this.cantLotes
+
+    clasica.descuento()
+    lager.descuento()
+    porter.descuento()
+
+
+
+    }
+
 
 
 

@@ -15,10 +15,9 @@ public class Clasica{
         return lupulo.getValorLupulo() + levadura.getValorLevadura();
     }
 
-
-//    public double getValorLevadura(){
-//        return levadura.getValorLevadura();
-//    }
+    public Integer descuento(){
+        return 0;
+    }
 
 }
 

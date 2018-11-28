@@ -9,22 +9,23 @@ public class Levadura {
     public Levadura(String tipoLevadura, Lupulo lupulo) {
         this.tipoLevadura = tipoLevadura;
         this.lupulo = lupulo;
+        this.setValorLevadura();
     }
 
     public double getValorLevadura() {
         return this.valorLevadura;
     }
 
-    public void setValorLevadura(double valorLevadura) {
-        this.valorLevadura = valorLevadura;
-    }
+//    public void setValorLevadura(double valorLevadura) {
+//        this.valorLevadura = valorLevadura;
+//    }
 
     public String getTipoLevadura(){
         return this.tipoLevadura;
     }
 
 
-    public void valorLevadura(){
+    private void setValorLevadura(){
         if(this.getTipoLevadura() == "Alta"){
             valorLevadura = 0.1 * lupulo.getValorLupulo();
         }
