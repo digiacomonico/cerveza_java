@@ -36,11 +36,63 @@ public class CervezasTest {
 
     }
 
+    // lupA = LupuloImportado
+    // lupB = LupuloLocal
+    // Levadura levA -> Alta (con Lupulo Importado)
+    // Levadura levB -> Baja
+    // Levadura levC -> Alta (con Lupulo Local)
+    // Levadura levD -> Baja(con Lupulo Local)
+
+
     @Test
-    public void costoClasica(){
+    public void costoClasicaConLupuloImportadoYLevaduraAlta(){
         Clasica clasica = new Clasica(levA,lupA);
         Assert.assertEquals(1100.0,clasica.getCosto(),0);
     }
+
+    @Test
+    public void costoClasicaConLupuloImportadoYLevaduraBaja(){
+        // TODO -> Poner levadura baja y ver cuanto tendria que salir
+        Clasica clasica = new Clasica(levA,lupA);
+        Assert.assertEquals(1100.0,clasica.getCosto(),0);
+    }
+
+    @Test
+    public void costoClasicaConLupuloLocalYLevaduraAlta(){
+        // TODO -> Poner lupulo local y  levadura alta , ver cuanto tendria que salir
+        Clasica clasica = new Clasica(levA,lupA);
+        Assert.assertEquals(1100.0,clasica.getCosto(),0);
+    }
+
+    @Test
+    public void costoClasicaConLupuloLocalYLevaduraBaja(){
+        // TODO -> Poner lupulo local y  levadura baja , ver cuanto tendria que salir
+        Clasica clasica = new Clasica(levA,lupA);
+        Assert.assertEquals(1100.0,clasica.getCosto(),0);
+    }
+
+    @Test
+    public void costoLagerCon0Ingredientes(){
+        Lager lager = new Lager(levA,lupA);
+        Assert.assertEquals(1100.0,lager.getCosto(),0);
+    }
+
+    @Test
+    public void costoLagerCon1Ingrediente(){
+        Lager lager = new Lager(levA,lupA);
+        lager.agregarIngredientes("A");
+        Assert.assertEquals(1150,lager.getCosto(),0);
+    }
+
+    @Test
+    public void costoLagerCon2Ingredientes(){
+        Lager lager = new Lager(levA,lupA);
+        lager.agregarIngredientes("A");
+        lager.agregarIngredientes("B");
+        Assert.assertEquals(1200,lager.getCosto(),0);
+    }
+
+
 
 
 //    @Test

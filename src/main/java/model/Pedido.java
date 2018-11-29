@@ -9,7 +9,6 @@ public class Pedido {
 
     Clasica tipoLote;
     Integer cantidad;
-    //private List<Clasica> lotes = new ArrayList<>();
     private Distribuidora distribuidora;
 
 

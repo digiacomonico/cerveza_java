@@ -3,17 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="63d2b202-f1dc-4b6d-9c1f-edcf5f0f32d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Clasica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Clasica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Distribuidora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Distribuidora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Lager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Lager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Porter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Porter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CervezasTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Clasica.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Clasica.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Lager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Lager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Levadura.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Levadura.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CervezasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CervezasTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CervezasTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CervezasTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,14 +19,15 @@
     <session id="949330188">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -52,13 +45,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="12" />
-          <entry key="java" value="6306" />
+          <entry key="java" value="6910" />
           <entry key="xml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6306" />
+          <entry key="JAVA" value="6910" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="XML" value="13" />
         </counts>
@@ -91,19 +84,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/Pedido.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+            <state relative-caret-position="135">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#514#515#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#658#659#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,18 +101,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/Distribuidora.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="285">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
                 <element signature="e#631#632#0" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/Lupulo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+            <state>
+              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
               <folding>
                 <element signature="method#Lupulo#0;class#Lupulo#0" />
                 <element signature="method#setValorLupulo#0;class#Lupulo#0" />
@@ -158,14 +141,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CervezasTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+            <state relative-caret-position="292">
+              <caret line="68" column="54" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1543438445689" expanded="true" signature="905:1134" ph="..." />
               </folding>
             </state>
           </provider>
@@ -234,9 +216,9 @@
         <option value="$PROJECT_DIR$/src/main/java/model/Clasica.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Lager.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Porter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Pedido.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Distribuidora.java" />
         <option value="$PROJECT_DIR$/src/test/java/CervezasTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Pedido.java" />
       </list>
     </option>
   </component>
@@ -270,10 +252,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1366" />
-    <option name="y" value="-2" />
-    <option name="width" value="1920" />
-    <option name="height" value="1082" />
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1299" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -281,6 +263,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cervezas" type="1abcf292:AndroidViewProjectNode" />
+              <item name="cervezas" type="e9137016:NonAndroidModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -333,21 +326,10 @@
       </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="cervezas" type="1abcf292:AndroidViewProjectNode" />
-              <item name="cervezas" type="e9137016:NonAndroidModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543438465005" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543495325031" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -405,43 +387,52 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CervezasTest - 2018.11.28 at 17h 05m 21s.xml">
-      <configuration name="CervezasTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CervezasTest - 2018.11.28 at 17h 44m 08s.xml">
-      <configuration name="CervezasTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CervezasTest - 2018.11.28 at 17h 46m 07s.xml">
-      <configuration name="CervezasTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CervezasTest - 2018.11.28 at 17h 46m 32s.xml">
-      <configuration name="CervezasTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CervezasTest - 2018.11.28 at 17h 46m 43s.xml">
-      <configuration name="CervezasTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CervezasTest - 2018.11.28 at 17h 47m 28s.xml">
-      <configuration name="CervezasTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CervezasTest - 2018.11.28 at 17h 47m 36s.xml">
+      <configuration name="CervezasTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CervezasTest - 2018.11.29 at 09h 32m 23s.xml">
+      <configuration name="CervezasTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CervezasTest - 2018.11.29 at 09h 32m 34s.xml">
+      <configuration name="CervezasTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CervezasTest - 2018.11.29 at 09h 32m 47s.xml">
+      <configuration name="CervezasTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CervezasTest - 2018.11.29 at 09h 32m 59s.xml">
+      <configuration name="CervezasTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CervezasTest - 2018.11.29 at 09h 34m 16s.xml">
+      <configuration name="CervezasTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CervezasTest - 2018.11.29 at 09h 34m 38s.xml">
+      <configuration name="CervezasTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CervezasTest - 2018.11.29 at 09h 35m 14s.xml">
+      <configuration name="CervezasTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CervezasTest - 2018.11.29 at 09h 35m 20s.xml">
+      <configuration name="CervezasTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CervezasTest - 2018.11.29 at 09h 42m 06s.xml">
       <configuration name="CervezasTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="-2" width="1920" height="1082" extended-state="6" />
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49772727" visible="true" weight="0.2673426" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49772727" visible="true" weight="0.27693537" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5022727" side_tool="true" weight="0.264166" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32878152" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32626426" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32952693" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.28151262" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.31647635" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -482,14 +473,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Levadura.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Clasica.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        <state>
+          <caret column="14" selection-end-column="14" />
           <folding>
-            <element signature="method#Levadura#0;class#Levadura#0" />
-            <element signature="e#386#444#0" />
-            <element signature="method#toString#0;class#Levadura#0" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -514,10 +504,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CervezasTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="68" column="54" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Levadura.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          <folding>
+            <element signature="method#Levadura#0;class#Levadura#0" />
+            <element signature="e#386#444#0" />
+            <element signature="method#toString#0;class#Levadura#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Lupulo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
           <folding>
             <element signature="method#Lupulo#0;class#Lupulo#0" />
             <element signature="method#setValorLupulo#0;class#Lupulo#0" />
@@ -527,58 +539,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Clasica.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Distribuidora.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-end-column="14" />
+        <state relative-caret-position="285">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Pedido.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        <state relative-caret-position="135">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Distribuidora.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CervezasTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1543438445689" expanded="true" signature="905:1134" ph="..." />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
           </folding>
         </state>
       </provider>
